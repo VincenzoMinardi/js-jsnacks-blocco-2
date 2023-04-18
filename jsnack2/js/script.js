@@ -1,3 +1,5 @@
+let arryList =[];
+
 for (let i = 0; i >= 6; i++){
      let arryName = [
     'Vincenzo',
@@ -6,7 +8,7 @@ for (let i = 0; i >= 6; i++){
      'Paolo',
     'Andrea',
      'Gary',
-] 
+]; 
 console.log(arryName);
 
  let arrySurname =[
@@ -16,13 +18,9 @@ console.log(arryName);
      "D'angelo",
      'Giordano',
      'Orchestra'
- ]
+ ];
  console.log(arrySurname)
 
- let ArryList =[]
-
-console.log(ArryList.push,(arryName + arrySurname))
-
-
+ console.log(arryList.push(arryName + arrySurname));
 }
 
