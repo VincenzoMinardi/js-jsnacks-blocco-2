@@ -1,23 +1,26 @@
 let  numbers;
 let verifiched = false;
 
-const myArr =[];
+let myArr =[];
 
 for  ( let i = 0; i < 6;  i++){
-    num = parseInt(prompt('Digita un numero',));
-    console.log(numbers);
+    numbers = parseInt(prompt('Digita un numero',));
+    
     
 
-    if(numbers / 2 == 0){
-        console.log('Il numero non è corretto');
+    if(numbers % 2 == 0){
+        console.log('pari',(numbers));
     }
     
 
-    else if(numbers / 2 == 1){
+    else if(numbers % 2 == 1){
         verifiched = true;
-        console.log (myArr.push(numbers));
+        console.log ('dispari',(numbers));
+        parseInt(myArr.push(numbers))
     }
 }
+
+console.log(myArr)
     
 
 
