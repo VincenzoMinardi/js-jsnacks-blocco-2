@@ -16,7 +16,7 @@ for  ( let i = 0; i < 6;  i++){
     else if(numbers % 2 == 1){
         verifiched = true;
         console.log ('dispari',(numbers));
-        parseInt(myArr.push(numbers))
+        (myArr.push(numbers))
     }
 }
 

@@ -1,7 +1,5 @@
 let arryList =[];
-
-for (let i = 0; i >= 6; i++){
-     let arryName = [
+let arryName = [
     'Vincenzo',
      'Lamberto',
      'Antonio',
@@ -20,7 +18,16 @@ console.log(arryName);
      'Orchestra'
  ];
  console.log(arrySurname)
-
- console.log(arryList.push(arryName + arrySurname));
+ 
+ for (let i = 0; i < arryName.length; i++){
+    
+let generatorName = Math.floor(Math.random()*arryName.length);
+let generatorSurname = Math.floor(Math.random()*arrySurname.length);
+   console.log(generatorName, generatorSurname);
+arryList.push(arryName[generatorName] + ' ' + arrySurname[generatorSurname]);
+    
 }
+
+console.log (arryList);
+
 
